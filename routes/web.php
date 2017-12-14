@@ -13,4 +13,22 @@
 
 Route::get('/', function () {
     return view('welcome');
+
+
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('index', function() {
+  return view('index');
+});
+
+Auth::routes();
+Route::get('server', function() {
+    return view('server');
+});
+
+Route::get('programmer', function() {
+    return view('programmer');
 });

@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: rgb(64, 75, 83);
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -79,13 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Data Where House
+                    AllTech
                 </div>
 
-                <div class="links">
-                    
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
             </div>
         </div>
     </body>
